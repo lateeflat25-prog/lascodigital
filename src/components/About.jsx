@@ -61,7 +61,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-5 md:px-8 mt-12 lg:mt-16">
         <div className="grid md:grid-cols-[240px_1fr] gap-8 items-center bg-white rounded-3xl border border-border p-6 md:p-8 shadow-soft">
           <Image
-            src={F2}
+            src={FOUNDER}
             alt="Balogun Abdullateef, Founder of Lasco Digital Solutions"
             fittingType="fill"
             focalPointX={0.5}
