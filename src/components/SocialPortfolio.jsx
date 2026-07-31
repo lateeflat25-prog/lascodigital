@@ -12,7 +12,7 @@ const IG_PAIRS = [
   {
     handle: '@9jabuka',
     before: { src: 'https://media.base44.com/images/public/6a69ef8ee16a943803f515ba/4802c3978_579e020c-23c6-44c0-8629-88916dad94ae.jpg', stat: '1,748 followers' },
-    after: { src: './src/assets/9jabukastats.jpeg', stat: '4,073 followers' },
+    after: { src: 'https://raw.githubusercontent.com/lateeflat25-prog/lascodigital/refs/heads/main/src/assets/9jabukastats.jpeg', stat: '4,073 followers' },
     growth: '+118%',
   },
 ];
