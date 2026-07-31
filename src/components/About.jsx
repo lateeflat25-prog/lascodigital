@@ -66,7 +66,7 @@ export default function About() {
             fittingType="fill"
             focalPointX={0.5}
             focalPointY={0.35}
-            className="block w-full  rounded-2xl overflow-hidden mx-auto md:mx-0 shadow-soft"
+            className="block w-full h-full rounded-2xl overflow-hidden mx-auto md:mx-0 shadow-soft"
           />
           <div>
             <span className="text-navy-light text-sm font-semibold uppercase tracking-wider">Meet the Founder</span>
