@@ -59,25 +59,31 @@ export default function About() {
       </div>
 
       <div className="max-w-7xl mx-auto px-5 md:px-8 mt-12 lg:mt-16">
-        <div className="grid md:grid-cols-[240px_1fr] gap-8 items-center bg-white rounded-3xl border border-border p-6 md:p-8 shadow-soft">
-          <Image
-            src={FOUNDER}
-            alt="Balogun Abdullateef, Founder of Lasco Digital Solutions"
-            fittingType="fill"
-            focalPointX={0.5}
-            focalPointY={0.35}
-            className="block w-full h-full rounded-2xl overflow-hidden mx-auto md:mx-0 shadow-soft"
-          />
-          <div>
-            <span className="text-navy-light text-sm font-semibold uppercase tracking-wider">Meet the Founder</span>
-            <h3 className="mt-2 font-heading font-extrabold text-navy text-2xl md:text-3xl">Balogun Abdullateef</h3>
-            <p className="font-semibold text-navy-light">Founder, Lasco Digital Solutions</p>
-            <blockquote className="mt-4 text-muted-foreground text-lg leading-relaxed border-l-2 border-navy/20 pl-4">
-              “We don't just run ads — we build growth systems. My mission is to turn every naira you spend
-              into measurable business results, so growth becomes predictable instead of hopeful.”
-            </blockquote>
-          </div>
-        </div>
+       <div className="grid md:grid-cols-[220px_1fr] lg:grid-cols-[260px_1fr] xl:grid-cols-[300px_1fr] gap-6 md:gap-8 lg:gap-10 items-center bg-white rounded-3xl border border-border p-5 sm:p-6 md:p-8 lg:p-10 shadow-soft">
+  <Image
+    src={FOUNDER}
+    alt="Balogun Abdullateef, Founder of Lasco Digital Solutions"
+    fittingType="fill"
+    focalPointX={0.5}
+    focalPointY={0.35}
+    className="block w-full aspect-[4/3] sm:aspect-square md:aspect-[4/5] rounded-2xl overflow-hidden max-w-[220px] sm:max-w-[260px] md:max-w-none mx-auto md:mx-0 shadow-soft"
+  />
+  <div className="text-center md:text-left">
+    <span className="text-navy-light text-xs sm:text-sm font-semibold uppercase tracking-wider">
+      Meet the Founder
+    </span>
+    <h3 className="mt-2 font-heading font-extrabold text-navy text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+      Balogun Abdullateef
+    </h3>
+    <p className="font-semibold text-navy-light text-sm sm:text-base">
+      Founder, Lasco Digital Solutions
+    </p>
+    <blockquote className="mt-4 text-muted-foreground text-base sm:text-lg lg:text-xl leading-relaxed border-l-2 border-navy/20 pl-4 text-left">
+      “We don't just run ads — we build growth systems. My mission is to turn every naira you spend
+      into measurable business results, so growth becomes predictable instead of hopeful.”
+    </blockquote>
+  </div>
+</div>
       </div>
     </section>
   );
